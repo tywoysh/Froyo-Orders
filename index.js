@@ -27,5 +27,5 @@ const countFlavors = (flavors) => {
   return flavors
 };
 
-console.log(countFlavors(favFlavors));
+console.table(countFlavors(favFlavors));
 
